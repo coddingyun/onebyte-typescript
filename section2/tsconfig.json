@@ -1,0 +1,14 @@
+{   
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "ESNext",
+        "outDir": "dist", // dist 폴더에 js 파일 넣기
+        "strict": true, // 엄격 모드
+        //"strictNullChecks": false, // 엄격한 null 검사, 상위 옵션
+        "moduleDetection": "force", // js에 모두 export {}을 넣어줘서 각 파일을 개별 스코프로 만들어준다
+    },
+    "ts-node": {
+        "esm": true,
+    },
+    "include": ["src"]
+}
